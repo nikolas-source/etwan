@@ -3,54 +3,52 @@
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Etwan</title>
+  <title>New Tab</title>
   <style>
   body {
     font-family: sans-serif;
     text-align: center;
-    background-color: black;
+    background-color: #161616;
   }
   .image img {
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
   }
   p,i,e {
     color: white;
   }
+
   .about {
     color: white;
   }
-  #search {
-    width: 600px;
-    height: 150px;
-    font-size: 50px;
-  }
-  
+  .bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+#search {
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    background-color: #161616;
+    color: #aaa;
+}
   </style>
+  <script src="https://kit.fontawesome.com/6da05088cf.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="image">
     <img src="https://i.ibb.co/qCZ2mc6/etwan.png" alt="etwan" border="0" />
   </div>
-  <form action="https://www.google.com/search" method="GET">
-    <input type="hidden" name="start" value="10"> <!-- This sets it to the second page -->
-    <input id="search" type="text" name="q" placeholder="Search Google...">
+  <form class="bar"action="https://www.google.com/search" method="GET">
+    <input type="hidden" name="start" value="10">
+    <input id="search" type="text" name="q" placeholder="Search Etwan...">
   </form>
   <br>
   <br>
   <br>
-  <div class="about">
-    <h2>About</h2>
-    <paragraph>
-      Etwan is a small but cool app that was made
-      for users to find out the hidden areas of Google
-      that sadly no one searches - the 2nd page.
-      Now, you porbably won't get results as good
-      as you will in the 1st page but in some situations
-      like if you are stuck on a question with limited
-      ammount of answers on the internet, the 2nd page is
-      super useful. I hope this app helps someone out!
-    </paragraph>
-  </div>
 </body>
 </html>
